@@ -25,10 +25,9 @@ int main()
         count = 0;          // reset to 0 each iteration since each iteration is a new test
         
         //
-        // check is num is divisible by i (1 --> entry)
+        // check is num is divisible by i (1 --> entry), if not, return that end is true
         //
         bool end = false;
-        
         for (int i = 1; i <= entry && end == false; i++)
         {
             //
